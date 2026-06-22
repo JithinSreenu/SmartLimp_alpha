@@ -31,6 +31,8 @@
 
 void App_Init(void)
 {
+
+    RTOS_Queues_Init();
     /* Safety First */
     FaultManager_Init();
 
